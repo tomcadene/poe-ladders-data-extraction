@@ -4,8 +4,12 @@ A collection of scripts used to extract data from the Path of Exile ladders
 I do recommend using different chrome profiles for each script if you are running several scripts at the same time
 
 # Scripts
++ `find_account_characters.py`
+  + The script will navigate to the specified POE leaderbaord page, find, print and log an account characters. Every X seconds the script will reload the page and repeat the process.
++ `save_ladder_data.py`
+  + The script will navigate to the specified POE leaderbaord page, find, print, log and save all the ladder characters in a json file. Every X seconds the script will reload the page and repeat the process.
 
-## find_account_characters
+## `find_account_characters.py`
 The script will navigate to the specified POE leaderbaord page, find, print and log an account characters. Every X seconds the script will reload the page and repeat the process.
 
 ### Environment Variables
@@ -37,7 +41,7 @@ Chromedriver Compatibility: The version of Chromedriver must match your installe
 Execute the Script
 `python find_account_characters.py`
 
-## save_ladder_data
+## `save_ladder_data.py`
 The script will navigate to the specified POE leaderbaord page, find, print, log and save all the ladder characters in a json file. Every X seconds the script will reload the page and repeat the process.
 
 ### Automated Ladder Scraping Every Minute
