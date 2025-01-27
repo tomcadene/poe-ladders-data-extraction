@@ -3,6 +3,8 @@ A collection of scripts used to extract data from the Path of Exile ladders
 
 I do recommend using different chrome profiles for each script if you are running several scripts at the same time
 
+![poe2](https://github.com/user-attachments/assets/aed1a8cc-8b1b-433a-aef0-9ace69650bc9)
+
 # Scripts
 * 🕵 `find_account_characters.py`
   * The script will navigate to the specified POE leaderboard page, find, print and log an account characters. Every X seconds the script will reload the page and repeat the process.
